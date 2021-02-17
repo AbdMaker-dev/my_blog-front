@@ -78,6 +78,7 @@ export default {
           console.log(sjt.commenters);
           if (sjt) {
             this.sujet = sjt;
+            this.commenter = {};
           }
         }
       )

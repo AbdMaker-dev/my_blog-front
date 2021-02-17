@@ -58,7 +58,7 @@ export default {
             autocapitalize: 'off'
           },
           showCancelButton: true,
-          confirmButtonText: 'Look up',
+          confirmButtonText: 'Loogin',
           showLoaderOnConfirm: true,
           preConfirm: (login) => {
             console.log(login);
