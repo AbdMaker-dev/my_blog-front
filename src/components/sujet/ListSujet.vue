@@ -1,7 +1,7 @@
 <template>
     <div id="listProduit">
         <div class="row inline-block crd justify-content-start align-items-center">
-            <div  v-for="(sujet, index) in listSujet" :key="index" class="col-sm ml-3">
+            <div  v-for="(sujet, index) in listSujet" :key="index" class="ml-3">
                 <ItemSujet v-bind:sujet="sujet"/>
             </div>
             <!-- <div class="col-sm ml-3">
